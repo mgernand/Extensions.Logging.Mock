@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<IncludeSymbols>false</IncludeSymbols>
+		<Copyright>Copyright © 2021 Matthias Gernand. All rights reserved.</Copyright>
+		<Version>1.0.0</Version>
+		<Authors>Matthias Gernand</Authors>
+		<Description>A unit-testing extension for verifing a logger mock.</Description>
+		<NeutralLanguage>en</NeutralLanguage>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageProjectUrl>https://github.com/mgernand/Extensions.Logging.Mock</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/mgernand/Extensions.Logging.Mock</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>logging;mock;moq;testing;unit-tests;extensions-logging</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="JetBrains.Annotations" Version="2021.3.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
+		<PackageReference Include="Moq" Version="4.16.1" />
+	</ItemGroup>
+
+</Project>
