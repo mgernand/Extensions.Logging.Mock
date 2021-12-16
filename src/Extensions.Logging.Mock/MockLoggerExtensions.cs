@@ -1,7 +1,6 @@
-﻿namespace Extensions.Logging.Mock
+﻿namespace Microsoft.Extensions.Logging.Mock
 {
 	using JetBrains.Annotations;
-	using Microsoft.Extensions.Logging;
 	using Moq;
 
 	[PublicAPI]

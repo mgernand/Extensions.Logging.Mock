@@ -1,4 +1,4 @@
-﻿namespace Extensions.Logging.Mock
+﻿namespace Microsoft.Extensions.Logging.Mock
 {
 	using System;
 	using JetBrains.Annotations;

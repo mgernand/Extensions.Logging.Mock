@@ -1,10 +1,9 @@
-﻿namespace Extensions.Logging.Mock
+﻿namespace Microsoft.Extensions.Logging.Mock
 {
 	using System;
 	using JetBrains.Annotations;
 	using Microsoft.Extensions.DependencyInjection;
 	using Microsoft.Extensions.DependencyInjection.Extensions;
-	using Microsoft.Extensions.Logging;
 	using Microsoft.Extensions.Logging.Configuration;
 	using Moq;
 

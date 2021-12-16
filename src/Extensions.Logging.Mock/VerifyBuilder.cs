@@ -1,7 +1,6 @@
-﻿namespace Extensions.Logging.Mock
+﻿namespace Microsoft.Extensions.Logging.Mock
 {
 	using System;
-	using Microsoft.Extensions.Logging;
 	using Moq;
 
 	internal sealed class VerifyBuilder : IVerifyBuilder
