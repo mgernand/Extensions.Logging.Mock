@@ -1,5 +1,5 @@
 # Extensions.Logging.Mock
-A unit-testing extension for verifing a logger mock.
+A unit-testing extension for verifying a logger mock.
 
 ## Configuration
 
