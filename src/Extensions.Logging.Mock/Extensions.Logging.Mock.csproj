@@ -4,16 +4,16 @@
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<LangVersion>latest</LangVersion>
-		<Nullable>enable</Nullable>
+		<Nullable>disable</Nullable>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 
 	<PropertyGroup>
 		<IncludeSymbols>false</IncludeSymbols>
-		<Copyright>Copyright © 2021 Matthias Gernand. All rights reserved.</Copyright>
-		<Version>1.0.2</Version>
-		<AssemblyVersion>1.0.2</AssemblyVersion>
-		<FileVersion>1.0.2</FileVersion>
+		<Copyright>Copyright © 2021-2022 Matthias Gernand. All rights reserved.</Copyright>
+		<Version>1.0.3</Version>
+		<AssemblyVersion>1.0.3</AssemblyVersion>
+		<FileVersion>1.0.3</FileVersion>
 		<Authors>Matthias Gernand</Authors>
 		<Description>A unit-testing extension for verifying a logger mock.</Description>
 		<NeutralLanguage>en</NeutralLanguage>
@@ -44,7 +44,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="6.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
-		<PackageReference Include="Moq" Version="4.16.1" />
+		<PackageReference Include="Moq" Version="4.17.2" />
 	</ItemGroup>
 
 </Project>
