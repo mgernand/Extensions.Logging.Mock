@@ -21,6 +21,13 @@
 		/// <param name="logLevel">The log level.</param>
 		/// <returns>The underlying logger mock.</returns>
 		Mock<ILogger<T>> LogWasCalled(LogLevel logLevel);
+
+		/// <summary>
+		///     Verifies if the underlying logger was NOT called for the given <see cref="LogLevel" />.
+		/// </summary>
+		/// <param name="logLevel">The log level.</param>
+		/// <returns>The underlying logger mock.</returns>
+		Mock<ILogger<T>> LogWasNotCalled(LogLevel logLevel);
 	}
 
 	/// <summary>
@@ -40,5 +47,12 @@
 		/// <param name="logLevel">The log level.</param>
 		/// <returns>The underlying logger mock.</returns>
 		Mock<ILogger> LogWasCalled(LogLevel logLevel);
+
+		/// <summary>
+		///     Verifies if the underlying logger was NOT called for the given <see cref="LogLevel" />.
+		/// </summary>
+		/// <param name="logLevel">The log level.</param>
+		/// <returns>The underlying logger mock.</returns>
+		Mock<ILogger> LogWasNotCalled(LogLevel logLevel);
 	}
 }

@@ -22,7 +22,22 @@
 					It.IsAny<EventId>(),
 					It.Is<It.IsAnyType>((v, t) => true),
 					It.IsAny<Exception>(),
-					It.Is<Func<It.IsAnyType, Exception, string>>((v, t) => true)!));
+					It.Is<Func<It.IsAnyType, Exception, string>>((v, t) => true)));
+
+			return this.Logger;
+		}
+
+		/// <inheritdoc />
+		Mock<ILogger> IVerifyBuilder.LogWasNotCalled(LogLevel logLevel)
+		{
+			this.Logger.Verify(
+				x => x.Log(
+					It.Is<LogLevel>(l => l == logLevel),
+					It.IsAny<EventId>(),
+					It.Is<It.IsAnyType>((v, t) => true),
+					It.IsAny<Exception>(),
+					It.Is<Func<It.IsAnyType, Exception, string>>((v, t) => true)),
+				Times.Never());
 
 			return this.Logger;
 		}
@@ -47,7 +62,22 @@
 					It.IsAny<EventId>(),
 					It.Is<It.IsAnyType>((v, t) => true),
 					It.IsAny<Exception>(),
-					It.Is<Func<It.IsAnyType, Exception, string>>((v, t) => true)!));
+					It.Is<Func<It.IsAnyType, Exception, string>>((v, t) => true)));
+
+			return this.Logger;
+		}
+
+		/// <inheritdoc />
+		Mock<ILogger<T>> IVerifyBuilder<T>.LogWasNotCalled(LogLevel logLevel)
+		{
+			this.Logger.Verify(
+				x => x.Log(
+					It.Is<LogLevel>(l => l == logLevel),
+					It.IsAny<EventId>(),
+					It.Is<It.IsAnyType>((v, t) => true),
+					It.IsAny<Exception>(),
+					It.Is<Func<It.IsAnyType, Exception, string>>((v, t) => true)),
+				Times.Never());
 
 			return this.Logger;
 		}
