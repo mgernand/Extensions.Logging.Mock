@@ -26,7 +26,7 @@ public class LoggerTests
 		{
 			builder.SetMinimumLevel(LogLevel.Trace);
 			builder.AddConsole();
-			builder.AddMock(this.mockLogger);
+			builder.AddMock(this.MockLogger);
 		});
 
 		IServiceProvider serviceProvider = services.BuildServiceProvider();
