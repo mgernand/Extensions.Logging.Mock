@@ -11,9 +11,9 @@
 	<PropertyGroup>
 		<IncludeSymbols>false</IncludeSymbols>
 		<Copyright>Copyright © 2021-2022 Matthias Gernand. All rights reserved.</Copyright>
-		<Version>1.0.4</Version>
-		<AssemblyVersion>1.0.4</AssemblyVersion>
-		<FileVersion>1.0.4</FileVersion>
+		<Version>1.1.0</Version>
+		<AssemblyVersion>1.1.0</AssemblyVersion>
+		<FileVersion>1.1.0</FileVersion>
 		<Authors>Matthias Gernand</Authors>
 		<Description>A unit-testing extension for verifying a logger mock.</Description>
 		<NeutralLanguage>en</NeutralLanguage>
