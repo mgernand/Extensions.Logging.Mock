@@ -11,9 +11,9 @@
 	<PropertyGroup>
 		<IncludeSymbols>false</IncludeSymbols>
 		<Copyright>Copyright © 2021-2022 Matthias Gernand. All rights reserved.</Copyright>
-		<Version>1.1.1</Version>
-		<AssemblyVersion>1.1.1</AssemblyVersion>
-		<FileVersion>1.1.1</FileVersion>
+		<Version>1.1.2</Version>
+		<AssemblyVersion>1.1.2</AssemblyVersion>
+		<FileVersion>1.1.2</FileVersion>
 		<Authors>Matthias Gernand</Authors>
 		<Description>A unit-testing extension for verifying a logger mock.</Description>
 		<NeutralLanguage>en</NeutralLanguage>
@@ -21,7 +21,7 @@
 		<PackageProjectUrl>https://github.com/mgernand/Extensions.Logging.Mock</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/mgernand/Extensions.Logging.Mock</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageTags>logging;mock;moq;testing;unit-tests;extensions-logging</PackageTags>
+		<PackageTags>logging;mock;moq;testing;unit-tests;extensions;logging;extensions-logging</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageIcon>icon.png</PackageIcon>
@@ -29,14 +29,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Include="..\..\icon.png">
-	    <Pack>True</Pack>
-	    <PackagePath>\</PackagePath>
-	  </None>
-	  <None Include="..\..\README.md">
-	    <Pack>True</Pack>
-	    <PackagePath>\</PackagePath>
-	  </None>
+		<None Include="..\..\icon.png" Link="Properties\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\README.md" Link="Properties\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -44,7 +44,7 @@
 		<PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="6.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
-		<PackageReference Include="Moq" Version="4.18.1" />
+		<PackageReference Include="Moq" Version="4.18.2" />
 	</ItemGroup>
 
 </Project>
