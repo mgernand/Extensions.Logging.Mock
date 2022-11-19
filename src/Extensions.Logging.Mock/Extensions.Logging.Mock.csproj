@@ -11,9 +11,9 @@
 	<PropertyGroup>
 		<IncludeSymbols>false</IncludeSymbols>
 		<Copyright>Copyright © 2021-2022 Matthias Gernand. All rights reserved.</Copyright>
-		<Version>1.1.2</Version>
-		<AssemblyVersion>1.1.2</AssemblyVersion>
-		<FileVersion>1.1.2</FileVersion>
+		<Version>1.1.3</Version>
+		<AssemblyVersion>1.1.3</AssemblyVersion>
+		<FileVersion>1.1.3</FileVersion>
 		<Authors>Matthias Gernand</Authors>
 		<Description>A unit-testing extension for verifying a logger mock.</Description>
 		<NeutralLanguage>en</NeutralLanguage>
@@ -40,10 +40,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="JetBrains.Annotations" Version="2022.1.0" />
-		<PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="6.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
+		<PackageReference Include="JetBrains.Annotations" Version="2022.3.1" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
 		<PackageReference Include="Moq" Version="4.18.2" />
 	</ItemGroup>
 
