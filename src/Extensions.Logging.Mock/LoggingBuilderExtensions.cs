@@ -7,7 +7,10 @@
 	using Microsoft.Extensions.Logging.Configuration;
 	using Moq;
 
-	[PublicAPI]
+    /// <summary>
+    ///		Extension methods for the <see cref="ILoggingBuilder"/> type.
+    /// </summary>
+    [PublicAPI]
 	public static class LoggingBuilderExtensions
 	{
 		/// <summary>

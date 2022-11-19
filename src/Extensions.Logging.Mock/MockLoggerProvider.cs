@@ -13,7 +13,12 @@
 	{
 		private readonly Mock<ILogger> loggerMock;
 
-		public MockLoggerProvider(Mock<ILogger> loggerMock)
+        /// <summary>
+        ///		Initializes a new instance of the <see cref="MockLoggerProvider"/> type.
+        /// </summary>
+        /// <param name="loggerMock"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public MockLoggerProvider(Mock<ILogger> loggerMock)
 		{
 			this.loggerMock = loggerMock ?? throw new ArgumentNullException(nameof(loggerMock));
 		}
