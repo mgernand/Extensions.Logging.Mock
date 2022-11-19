@@ -3,7 +3,10 @@
 	using JetBrains.Annotations;
 	using Moq;
 
-	[PublicAPI]
+    /// <summary>
+    ///		Extension methods for the <see cref="Mock{T}"/> type.
+    /// </summary>
+    [PublicAPI]
 	public static class MockLoggerExtensions
 	{
 		/// <summary>
