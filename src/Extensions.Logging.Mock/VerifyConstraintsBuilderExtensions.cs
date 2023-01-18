@@ -3,7 +3,10 @@
 	using System;
 	using JetBrains.Annotations;
 
-	[PublicAPI]
+    /// <summary>
+    ///		Extension methods for the <see cref="IVerifyConstraintsBuilder{T}"/> type.
+    /// </summary>
+    [PublicAPI]
 	public static class VerifyConstraintsBuilderExtensions
 	{
 		/// <summary>
