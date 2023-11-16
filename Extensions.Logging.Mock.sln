@@ -14,9 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EC5A0984-D37
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A82B4D69-CC67-4A1B-B3AA-DCA8EE2A27EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions.Logging.Mock", "src\Extensions.Logging.Mock\Extensions.Logging.Mock.csproj", "{9359DB93-34C4-4FA5-B87D-85A4BBE60542}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions.Logging.Mock", "src\Extensions.Logging.Mock\Extensions.Logging.Mock.csproj", "{9359DB93-34C4-4FA5-B87D-85A4BBE60542}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions.Logging.Mock.UnitTests", "tests\Extensions.Logging.Mock.UnitTests\Extensions.Logging.Mock.UnitTests.csproj", "{F289BDD3-D521-4EED-9337-EC9887517BDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions.Logging.Mock.UnitTests", "tests\Extensions.Logging.Mock.UnitTests\Extensions.Logging.Mock.UnitTests.csproj", "{F289BDD3-D521-4EED-9337-EC9887517BDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
