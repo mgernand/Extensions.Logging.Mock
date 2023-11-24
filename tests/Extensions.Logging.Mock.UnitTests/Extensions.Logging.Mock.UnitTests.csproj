@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
 		<Nullable>disable</Nullable>
 		<IsPackable>false</IsPackable>
 	</PropertyGroup>
@@ -18,13 +18,13 @@
 		<PackageReference Include="NUnit" Version="3.14.0" />
 		<PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
 		<PackageReference Include="coverlet.collector" Version="6.0.0">
-		  <PrivateAssets>all</PrivateAssets>
-		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\..\src\Extensions.Logging.Mock\Extensions.Logging.Mock.csproj" />
+		<ProjectReference Include="..\..\src\Extensions.Logging.Mock\Extensions.Logging.Mock.csproj" />
 	</ItemGroup>
 
 </Project>
