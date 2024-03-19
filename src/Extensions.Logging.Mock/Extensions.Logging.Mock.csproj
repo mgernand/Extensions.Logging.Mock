@@ -2,30 +2,6 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.1</TargetFramework>
-		<LangVersion>latest</LangVersion>
-		<Nullable>disable</Nullable>
-		<ImplicitUsings>disable</ImplicitUsings>
-		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-	</PropertyGroup>
-
-	<PropertyGroup>
-		<IncludeSymbols>false</IncludeSymbols>
-		<Copyright>Copyright © 2021-2023 Matthias Gernand. All rights reserved.</Copyright>
-		<Version>1.2.1</Version>
-		<AssemblyVersion>1.2.1</AssemblyVersion>
-		<FileVersion>1.2.1</FileVersion>
-		<Authors>Matthias Gernand</Authors>
-		<Description>A unit-testing extension for verifying a logger mock.</Description>
-		<NeutralLanguage>en</NeutralLanguage>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<PackageProjectUrl>https://github.com/mgernand/Extensions.Logging.Mock</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/mgernand/Extensions.Logging.Mock</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
-		<PackageTags>logging;mock;moq;testing;unit-tests;extensions;logging;extensions-logging</PackageTags>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageIcon>icon.png</PackageIcon>
-		<RootNamespace>Microsoft.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
