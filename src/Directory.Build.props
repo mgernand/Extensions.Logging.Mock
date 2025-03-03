@@ -28,7 +28,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<VersionPrefix>9.0.2</VersionPrefix>
+		<VersionPrefix>9.0.3</VersionPrefix>
 		<VersionSuffix></VersionSuffix>
 		<FileVersion>$(VersionPrefix)</FileVersion>
 		<AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
@@ -38,7 +38,7 @@
 	<PropertyGroup>
 		<Product>Extensions.Logging.Mock</Product>
 		<AssemblyTitle>Extensions.Logging.Mock</AssemblyTitle>
-		<Copyright>Copyright © 2021-2024 Matthias Gernand. All rights reserved.</Copyright>
+		<Copyright>Copyright © 2021-2025 Matthias Gernand. All rights reserved.</Copyright>
 	</PropertyGroup>
 
 </Project>
