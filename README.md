@@ -1,6 +1,8 @@
 # Extensions.Logging.Mock
 A unit-testing extension for verifying a logger mock.
 
+## This repository was moved to https://codeberg.org/mgernand/Extensions.Logging.Mock
+
 ## Configuration
 
 To configure the intrastructure you just have to call **```AddMock()```** on the **```ILoggingBuilder```**
